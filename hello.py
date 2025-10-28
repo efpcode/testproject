@@ -18,6 +18,9 @@ class Testing:
     def get_capitalized_name(self):
         return f"{self.name.upper()}"
 
+    def get_upper_lastname(self):
+        return f"{self.lastname.upper()}"
+
 
 test()
 username("test")
@@ -26,4 +29,5 @@ person = Testing("bob", "hund")
 
 print(person.get_fullname())
 print(person.get_capitalized_name())
+print(person.get_upper_lastname())
 
