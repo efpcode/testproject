@@ -12,8 +12,11 @@ class Testing:
         self.name = name
         self.lastname = lastname
 
-    def getFullname(self):
+    def get_fullname(self):
         return f"{self.name} {self.lastname}"
+
+    def get_capitalized_name(self):
+        return f"{self.name.upper()}"
 
 
 test()
@@ -21,5 +24,6 @@ username("test")
 
 person = Testing("bob", "hund")
 
-print(person.getFullname())
+print(person.get_fullname())
+print(person.get_capitalized_name())
 
