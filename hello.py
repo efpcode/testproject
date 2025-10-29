@@ -6,6 +6,9 @@ def test():
 def username(txt):
     print(f"Hello {txt}")
 
+def add(a=0, b=1):
+    return f"Total sum: {a + b}"
+
 
 class Testing:
     def __init__(self, name, lastname):
@@ -22,6 +25,7 @@ class Testing:
         return f"{self.lastname.upper()}"
 
 
+print(add())
 test()
 username("test")
 
