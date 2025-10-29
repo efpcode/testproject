@@ -1,10 +1,13 @@
 print("Hello world!")
 
+
 def test():
     print("From function")
 
+
 def username(txt):
     print(f"Hello {txt}")
+
 
 def add(a=0, b=1):
     return f"Total sum: {a + b}"
@@ -34,4 +37,3 @@ person = Testing("bob", "hund")
 print(person.get_fullname())
 print(person.get_capitalized_name())
 print(person.get_upper_lastname())
-
